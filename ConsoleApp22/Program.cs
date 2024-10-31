@@ -11,7 +11,7 @@ namespace GitDemo
             Console.WriteLine("var ska du len<");
             Console.WriteLine("gyhj");
 
-            Helpers.calculateFine("böter " +  (15, 5));
+            Console.WriteLine("böter " + Helpers.calculateFine  (15, 5));
         }
     }
 }
