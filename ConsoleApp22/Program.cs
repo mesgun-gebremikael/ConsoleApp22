@@ -1,4 +1,6 @@
-﻿namespace GitDemo
+﻿using ConsoleApp22;
+
+namespace GitDemo
 {
     internal class Program
     {
@@ -8,6 +10,8 @@
             Console.WriteLine("github öning");
             Console.WriteLine("var ska du len<");
             Console.WriteLine("gyhj");
+
+            Helpers.calculateFine("böter " +  (15, 5));
         }
     }
 }
